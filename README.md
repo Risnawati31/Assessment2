@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Laravel 6 Penjadwalan
 
 Ini adalah simple sistem untuk menjadwalkan bimbingan antara dosen dan mahasiswa. Jadwal diinputkan bukan oleh mahasiswa ataupun dosen tapi oleh satu orang. Dilengkapi user management dimana terdapat dua type user yaitu admin dan user (orang yang menginputkan jadwal). 
@@ -26,3 +27,6 @@ Table appointment berisi jadwal.
 Basically, bebas digunakan, dimodifikasi dan disebarkan.
 
 ---
+=======
+# Assessment2
+>>>>>>> 87da84c9f33473cca9a100bca0960347ce375f9d
