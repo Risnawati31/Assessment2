@@ -84,7 +84,7 @@ class ServicesController extends Controller
         return redirect()->route('admin.services.index');
     }
 
-    public function shows(Service $service)
+    public function show(Service $service)
     {
         abort_if(Gate::denies('service_show'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
