@@ -40,6 +40,9 @@
                         {{ trans('cruds.appointment.fields.comments') }}
                     </th>
                     <th>
+                        status
+                    </th>
+                    <th>
                         {{ trans('cruds.appointment.fields.services') }}
                     </th>
                     <th>
@@ -103,6 +106,7 @@
 { data: 'start_time', name: 'start_time' },
 { data: 'finish_time', name: 'finish_time' },
 { data: 'comments', name: 'comments' },
+{ data: 'status', name: 'status' },
 { data: 'services', name: 'services.name' },
 { data: 'actions', name: '{{ trans('global.actions') }}' }
     ],

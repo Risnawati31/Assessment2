@@ -13,6 +13,7 @@ class CreateAppointmentsTable extends Migration
             $table->datetime('start_time');
             $table->datetime('finish_time');
             $table->longText('comments')->nullable();
+             $table->enum('status', ["FINISH", "PROSESS","CANCEL"]);
             $table->timestamps();
             $table->softDeletes();
         });

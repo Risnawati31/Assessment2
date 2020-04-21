@@ -72,6 +72,18 @@
                     {{ trans('cruds.appointment.fields.comments_helper') }}
                 </p>
             </div>
+            <div class="form-group {{ $errors->has('status') ? 'has-error' : '' }}">
+                <label for="status">status</label>
+                <textarea id="status" name="status" class="form-control ">{{ old('status', isset($appointment) ? $appointment->status : '') }}</textarea>
+                @if($errors->has('status'))
+                    <em class="invalid-feedback">
+                        {{ $errors->first('status') }}
+                    </em>
+                @endif
+                <p class="helper-block">
+
+                </p>
+            </div>
             <div class="form-group {{ $errors->has('services') ? 'has-error' : '' }}">
                 <label for="services">{{ trans('cruds.appointment.fields.services') }}
                     <span class="btn btn-info btn-xs select-all">{{ trans('global.select_all') }}</span>

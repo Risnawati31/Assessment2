@@ -58,6 +58,15 @@
                             {!! $appointment->comments !!}
                         </td>
                     </tr>
+                     <tr>
+                        <th>
+                            status
+                        </th>
+                        
+                        <td>
+                            {!! $appointment->status !!}
+                        </td>
+                    </tr>
                     <tr>
                         <th>
                             Services

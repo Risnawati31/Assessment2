@@ -22,6 +22,7 @@ class Appointment extends Model
 
     protected $fillable = [
         'comments',
+        'status',
         'client_id',
         'start_time',
         'created_at',
